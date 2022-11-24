@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font-default,
+.font-default > div > div > label > span {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.site-page-header {
+  border: 1px solid rgb(235, 237, 240);
+}
+
+.text-best {
+  color: #59a2f0;
+}
+.text-good {
+  color: #288a4c;
+}
+.text-normal {
+  color: #93a84f;
+}
+.text-soso {
+  color: #d1a134;
+}
+.text-bad {
+  color: #b42d2a;
+}
+.row-container {
+  width: 410px;
+  margin: 0 auto;
+}
+.btn-start,
+.btn-next {
+  background-color: #0088ff;
+  border-color: #0088ff;
+  border-radius: 1px;
+  color: white;
+}
+@media (max-width: 575.98px) {
+  .row-container {
+    width: 100%;
+  }
+}
