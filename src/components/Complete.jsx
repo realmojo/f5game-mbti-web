@@ -417,6 +417,14 @@ export const Complete = () => {
           </div>
           <div className="text-center pb-4">
             <Button
+              className="mt-2 btn-next"
+              style={{ width: 336 }}
+              type="primary"
+              size="large"
+            >
+              <a href="https://adhd.f5game.co.kr">성인 ADHD 검사 테스트</a>
+            </Button>
+            <Button
               className="mt-2 mb-2 btn-next"
               style={{ width: 336 }}
               type="primary"
