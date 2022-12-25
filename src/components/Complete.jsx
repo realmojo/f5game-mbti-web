@@ -390,56 +390,72 @@ export const Complete = () => {
               ""
             )}
           </div>
-          <Share />
-          <div className="text-center mt-2 pb-2">
-            <a href="https://play.google.com/store/apps/details?id=com.f5game.mbti">
-              <Button
-                style={{ width: 336 }}
-                className="btn-next"
-                type="primary"
-                size="large"
-              >
-                MBTI 블라인드
-              </Button>
-            </a>
-          </div>
-          <div className="text-center mt-2 pb-2">
-            <a href="https://play.google.com/store/apps/details?id=com.f5game.today">
-              <Button
-                style={{ width: 336 }}
-                className="btn-next"
-                type="primary"
-                size="large"
-              >
-                오늘의 운세
-              </Button>
-            </a>
-          </div>
-          <div className="text-center pb-4">
+          <div className="text-center mt-2">
             <Button
               className="mt-2 btn-next"
               style={{ width: 336 }}
               type="primary"
               size="large"
             >
-              <a href="https://adhd.f5game.co.kr">성인 ADHD 검사 테스트</a>
+              <a href="https://mbti.f5game.co.kr">MBTI 검사 다시하기</a>
             </Button>
+          </div>
+          <Share />
+          <div className="text-center mt-2">
             <Button
-              className="mt-2 mb-2 btn-next"
+              className="mt-2 btn-next"
+              style={{ width: 336 }}
+              type="primary"
+              size="large"
+            >
+              <a href="https://play.google.com/store/apps/details?id=com.f5game.mbti">
+                MBTI 블라인드
+              </a>
+            </Button>
+          </div>
+          <div className="text-center mt-2">
+            <Button
+              className="mt-2 btn-next"
+              style={{ width: 336 }}
+              type="primary"
+              size="large"
+            >
+              <a href="https://play.google.com/store/apps/details?id=com.f5game.today">
+                오늘의 운세
+              </a>
+            </Button>
+          </div>
+          <div className="text-center mt-2">
+            <Button
+              className="mt-2 btn-next"
+              style={{ width: 336 }}
+              type="primary"
+              size="large"
+            >
+              <a href="https://adhd.f5game.co.kr">ADHD 테스트 자가진단</a>
+            </Button>
+          </div>
+          <div className="text-center mt-2">
+            <Button
+              className="mt-2 btn-next"
               style={{ width: 336 }}
               type="primary"
               size="large"
             >
               <a href="https://color.f5game.co.kr">색맹 테스트</a>
             </Button>
+          </div>
+          <div className="text-center mt-2">
             <Button
-              className="mt-2 mb-2 btn-next"
+              className="mt-2 btn-next"
               style={{ width: 336 }}
               type="primary"
               size="large"
             >
               <a href="https://color-age.f5game.co.kr">정신연령 테스트</a>
             </Button>
+          </div>
+          <div className="text-center mt-2">
             <Button
               className="mt-2 btn-next"
               style={{ width: 336 }}
