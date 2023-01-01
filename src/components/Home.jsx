@@ -69,7 +69,7 @@ export const Home = () => {
             type="primary"
             size="large"
           >
-            <a href="https://mbti.f5game.co.kr/#/page1" target="_self">
+            <a href="/page1" target="_self">
               START
             </a>
           </Button>

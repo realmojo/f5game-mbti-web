@@ -397,7 +397,7 @@ export const Complete = () => {
               type="primary"
               size="large"
             >
-              <a href="https://mbti.f5game.co.kr" target="_self">
+              <a href="/" target="_self">
                 MBTI 검사 다시하기
               </a>
             </Button>
