@@ -61,8 +61,7 @@ export const Home = () => {
           {children}
         </Select>
       </div>
-      <AdsenseMain />
-      <div className="text-center mt-2">
+      <div className="text-center mt-2 mb-4">
         {isLoading ? (
           <Button
             style={{ width: 336 }}
@@ -70,12 +69,15 @@ export const Home = () => {
             type="primary"
             size="large"
           >
-            <Link to="/page1">START</Link>
+            <a href="https://mbti.f5game.co.kr/#/page1" target="_self">
+              START
+            </a>
           </Button>
         ) : (
           ""
         )}
       </div>
+      <AdsenseMain />
       <article>
         <div className="post">
           <h2>MBTI 검사란</h2>
