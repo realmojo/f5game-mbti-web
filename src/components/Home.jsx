@@ -69,9 +69,7 @@ export const Home = () => {
             type="primary"
             size="large"
           >
-            <a href="/page1" target="_self">
-              START
-            </a>
+            <a href="/page1">START</a>
           </Button>
         ) : (
           ""
