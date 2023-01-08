@@ -61,6 +61,7 @@ export const Home = () => {
           {children}
         </Select>
       </div>
+      <AdsenseMain />
       <div className="text-center mt-2 mb-4">
         {isLoading ? (
           <Button
@@ -75,7 +76,6 @@ export const Home = () => {
           ""
         )}
       </div>
-      <AdsenseMain />
       <article>
         <div className="post">
           <h2>MBTI 검사란</h2>
