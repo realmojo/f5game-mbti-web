@@ -6,6 +6,7 @@ import { Share } from "./Share";
 import { AdsenseResult } from "./adsense/result";
 import { AdsenseResult2 } from "./adsense/result2";
 import { AdsenseLoading } from "./adsense/loading";
+import { TestList } from "./TestList";
 
 const items = {
   ESTJ: {
@@ -410,63 +411,13 @@ export const Complete = () => {
               type="primary"
               size="large"
             >
-              <a href="https://play.google.com/store/apps/details?id=com.f5game.mbti">
-                MBTI 블라인드
+              <a href="https://mindpang.com" target="_self">
+                마인드팡
               </a>
             </Button>
           </div>
-          <div className="text-center mt-2">
-            <Button
-              className="mt-2 btn-next"
-              style={{ width: 336 }}
-              type="primary"
-              size="large"
-            >
-              <a href="https://play.google.com/store/apps/details?id=com.f5game.today">
-                오늘의 운세
-              </a>
-            </Button>
-          </div>
-          <div className="text-center mt-2">
-            <Button
-              className="mt-2 btn-next"
-              style={{ width: 336 }}
-              type="primary"
-              size="large"
-            >
-              <a href="https://adhd.f5game.co.kr">ADHD 테스트 자가진단</a>
-            </Button>
-          </div>
-          <div className="text-center mt-2">
-            <Button
-              className="mt-2 btn-next"
-              style={{ width: 336 }}
-              type="primary"
-              size="large"
-            >
-              <a href="https://color.f5game.co.kr">색맹 테스트</a>
-            </Button>
-          </div>
-          <div className="text-center mt-2">
-            <Button
-              className="mt-2 btn-next"
-              style={{ width: 336 }}
-              type="primary"
-              size="large"
-            >
-              <a href="https://color-age.f5game.co.kr">정신연령 테스트</a>
-            </Button>
-          </div>
-          <div className="text-center mt-2">
-            <Button
-              className="mt-2 btn-next"
-              style={{ width: 336 }}
-              type="primary"
-              size="large"
-            >
-              <a href="https://animal.f5game.co.kr">영적동물 테스트</a>
-            </Button>
-          </div>
+
+          <TestList />
         </React.Fragment>
       )}
     </>
