@@ -404,19 +404,6 @@ export const Complete = () => {
             </Button>
           </div>
           <Share />
-          <div className="text-center mt-2">
-            <Button
-              className="mt-2 btn-next"
-              style={{ width: 336 }}
-              type="primary"
-              size="large"
-            >
-              <a href="https://mindpang.com" target="_self">
-                마인드팡
-              </a>
-            </Button>
-          </div>
-
           <TestList />
         </React.Fragment>
       )}

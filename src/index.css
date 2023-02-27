@@ -54,3 +54,11 @@ article > .post > h2 {
     width: 100%;
   }
 }
+
+.ant-card-meta {
+  justify-content: center;
+  font-weight: bold;
+}
+.ant-card-meta-title > h2 {
+  font-size: 24px;
+}
